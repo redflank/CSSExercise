@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise 2</title>
+
+    <style> 
+
+        /* Its optional for font names without space to be wrapped inside a double quotes */
+        .odd{
+            background-color: rgb(252, 133, 133);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        /* font names with space in it should be wrapped in double quotes */
+        .even{
+            font-family: "DejaVu Sans"; 
+        } 
+        #p1{
+            font-size: 22px;
+        }
+
+        #p2 {
+            color: rgb(66, 66, 245);
+            font-weight: 200;
+            font-size: 75px;
+        }
+
+        #p4 {
+            background-color: rgb(105, 255, 105);
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        #cooler{
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="odd" id="p1">Number 1 - I'm a class!</p>
+    <p class="even" id="p2">Number 2 - I'm one ID.</p>
+    <p class="odd" id="cooler">Number 3 - I'm a class, but cooler!</p>
+    <p class="even" id="p4">Number 4 - I'm another ID.</p>
+    <p class="odd">Number 5 - I'm a class!</p>
+</body>
+</html>
